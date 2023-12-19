@@ -13,7 +13,7 @@ PAPER="${PAPER:-CHANGEME}"
 
 PANDOC_CO="${PANDOC_CO:-classoption=onecolumn}"
 PANDOC_FILTER="${PANDOC_FILTER:---citeproc}"
-PANDOC_PS="${PANDOC_PS:-papersize=a4paper}"
+PANDOC_PS="${PANDOC_PS:-papersize:a4}"
 
 # generates a pdf document
 pdf() {
